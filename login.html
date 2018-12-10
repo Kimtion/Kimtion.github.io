@@ -1,0 +1,101 @@
+ <!DOCTYPE html>
+  <html>
+  <head>
+    <title>login</title>
+  	 <link href="https://fonts.googleapis.com/css?family=Jua&amp;subset=korean" rel="stylesheet">
+  	<style>
+  	 body{
+  		font-family: 'Jua', sans-serif;
+  		background-image: url(img/Pooh.png);
+	    background-repeat: no-repeat;
+	    background-position: 1150px 270px;
+	    background-size: 320px;
+	    background-color: #FAD749;
+  	 }
+  	 table {
+  	 margin: 0 10 0 10;
+  	 }
+  	 input[type=text], input[type=password] {
+  	 font-family: 'Jua', sans-serif;
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     box-sizing: border-box;
+     }
+     button {
+     font-family: 'Jua', sans-serif;
+     background-color: #F52532;
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+     }
+     .container {
+     padding: 16px;
+     }
+     span.psw {
+     float: right;
+     padding-top: 16px;
+     }
+     #login {
+    	text-align: center;
+    	font-size: 27px;
+    	padding: 20px 0 20px 0;
+     }
+     #lo {
+      margin-top: 55px;
+     }
+     #blogin {
+      width: 100%;
+      border-radius: 0px;
+     }
+  	</style>
+  </head>
+  <body>
+  	<table id="lo" align="center">
+
+      <tr>
+       <td id="login">로 그 인</td>
+      </tr>
+
+      <tr>
+       <td>
+       <label for="uname"><b>ID</b></label>
+       <input type="text" placeholder="Id" name="uname" required>
+       </td>
+      </tr>
+
+      <tr>
+       <td>
+       <label for="psw"><b>PASSWORD</b></label>
+       <input type="password" placeholder="Enter Password" name="psw" required>
+       </td>
+      </tr>
+      
+      <tr>
+       <td>
+       <button type="submit" id="blogin">LOGIN</button>
+       </td>
+      </tr>
+
+      <tr>
+	     <td>
+       <label>
+       <input type="checkbox" checked="checked" name="remember"> Remember
+       </label>
+       </td>
+      </tr>
+      
+      <tr>
+       <td align="center">
+       <a href="index.html"><button type="submit">HOME</button></a>
+       </td>
+      </tr>
+    
+    </table>
+  </body>
+  </html>

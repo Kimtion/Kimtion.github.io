@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signup</title>
+  <link href="https://fonts.googleapis.com/css?family=Jua&amp;subset=korean" rel="stylesheet">
+  <style>
+   body {
+    background-image: url(img/Piglet.png);
+    background-repeat: no-repeat;
+    background-position: 140px 120px;
+    font-family: 'Jua', sans-serif;
+    background-color: #F4B1C6;
+    }
+   input[type=text], input[type=password], input[type=button] {
+      font-family: 'Jua', sans-serif;
+    }
+    #membership {
+      font-size: 28px;
+    }
+    #t1 {
+      margin-top: 45px;
+    }
+    #t2 {
+      margin-top: 20px;
+    }
+    button {
+    font-family: 'Jua', sans-serif;
+    background-color: #CD376E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    }
+    #home {
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+	<table id="t1" width="700" align="center">
+<tr>
+ <th id="membership">회 원 가 입
+ </th>
+</tr>
+
+<tr>
+ <td>
+  <table id="t2" width="100%" bgcolor="#CD376E" cellpadding="5" cellspacing="1">
+   <tr>
+  	<td width="20%" bgcolor="#E66BA0">
+    &nbsp;이름
+   </td>
+   <td width="*" bgcolor="#FCE3E4">
+    <input type="text" value="성" size="10" /> <input type="text" value="이름"/>
+   </td>
+   </tr>
+
+   <tr>
+   <td width="20%" bgcolor="#E66BA0">
+    &nbsp;아이디
+   </td>
+   <td width="*" bgcolor="#FCE3E4">
+    <input type="text" value="아이디" size="10" /> <input type="button" value="아이디 중복확인" />
+   </td>
+   </tr>
+
+   <tr>
+   <td width="20%" bgcolor="#E66BA0">
+    &nbsp;비밀번호
+   </td>
+   <td width="*" bgcolor="#FCE3E4">
+    <input type="password" /> * 영문과 숫자 조합으로 8자리 이상
+   </td>
+   </tr>
+   
+   <tr>
+   <td width="20%" bgcolor="#E66BA0">
+    &nbsp;비밀번호 확인
+   </td>
+   <td width="*" bgcolor="#FCE3E4">
+    <input type="password" />
+   </td>
+   </tr> 
+
+   <tr>
+   <td width="20%" bgcolor="#E66BA0">
+    &nbsp;생년월일
+   </td>
+   <td width="*" bgcolor="#FCE3E4">
+    <input type="text" size="5" />년
+    <select>
+    	<option value="">1</option>
+    	<option value="">2</option>
+    	<option value="">3</option>
+    	<option value="">4</option>
+    	<option value="">5</option>
+    	<option value="">6</option>
+    	<option value="">7</option>
+    	<option value="">8</option>
+    	<option value="">9</option>
+    	<option value="">10</option>
+    	<option value="">11</option>
+    	<option value="">12</option>
+    </select>
+    월
+    <input type="text" size="2" />일
+   </td>
+   </tr> 
+
+   <tr>
+   	<td width="20%" bgcolor="#E66BA0">
+    &nbsp;성별
+   </td>
+   <td width="*" bgcolor="#FCE3E4">
+   남<input type="radio" name="radio">
+   여<input type="radio" checked="checked" name="radio">
+   </td>
+   </tr>
+
+   <tr>
+   <td width="20%" bgcolor="#E66BA0">
+    &nbsp;핸드폰 번호
+   </td>
+   <td width="*" bgcolor="#FCE3E4">
+   <select>
+    	<option value="">010</option>
+    </select>
+     - <input type="text" size="2" /> - <input type="text" size="2" />
+   </td>
+   </tr>
+
+   <tr>
+   <td width="20%" bgcolor="#E66BA0">
+    &nbsp;이메일 주소
+   </td>
+   <td width="*" bgcolor="#FCE3E4">
+     <input type="text" size="10" /> @ 
+     <select>
+    	<option value="">naver.com</option>
+    	<option value="">daum.net</option>
+    	<option value="">gmail.com</option>
+    </select>
+    <input type="checkbox" checked> sns정보 수신동의
+   </td>
+   </tr>
+
+   <tr>
+   <td bgcolor="#E66BA0">
+    &nbsp;주소
+    </td>
+    <td bgcolor="#FCE3E4">
+     <input type="text" size="3" readonly="readonly" /> -
+     <input type="text" size="3" readonly="readonly" />
+     <input type="button" value="우편번호 검색" /><br/>
+     <input type="text" size="20">
+     <input type="text" size="35" value="나머지 주소 입력">
+   </td>
+   </tr>
+  
+   <tr>
+    <td bgcolor="#E66BA0">
+    &nbsp;요구사항
+    </td>
+    <td bgcolor="#FCE3E4">
+    <textarea cols="50" rows="5"></textarea><br/>
+    <font size="2">*5줄 이하로 기재 바랍니다.</font>
+    </td>
+   </tr>
+  </tr>
+  </table>
+ </td>
+</tr>
+
+<tr>
+ <td align="center">
+  <button type="submit">회원가입</button>&nbsp;&nbsp;&nbsp;
+  <button type="submit">다시작성</button>
+ </td>
+</tr>
+   <tr>
+       <td align="center">
+       <a href="index.html"><button type="submit" id="home">HOME</button></a>
+       </td>
+      </tr>
+</table>
+</body>
+</html>
